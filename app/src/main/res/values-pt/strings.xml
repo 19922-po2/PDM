@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP21</string>
+    <string name="key_file">chave.json</string>
+    <string name="main_fragment_label">Olá</string>
+    <string name="classify_insets_btn">Classificar Insetos</string>
+    <string name="my_insects">Os Meus Insetos</string>
+    <string name="pictureTaken">Foto Tirada</string>
+    <string name="pictureResult">Foto Resultado</string>
+    <string name="saveData">Guardar Dados</string>
+    <string name="updateData">Atualizar Dados</string>
+    <string name="cancel">Cancelar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome">Bem Vindo</string>
+    <string name="take_photo">Tirar Fotografia</string>
+    <string name="select_option">Selecionar Opção</string>
+    <string name="result">Resultado</string>
+    <string name="insect_details">Detalhes do Insecto</string>
+    <string name="observation_details">Detalhes da Observação</string>
+    <string name="sortByOrder">Por por Ordem</string>
+    <string name="sortByTime">Por por Tempo</string>
+    <string name="newInsect">Novo Insecto</string>
+    <string name="deleteInsectQuestion">Deseja Mesmo Eliminar a Categoria de Insecto e Todas as Suas Observações?</string>
+    <string name="deleteObservationQuestion">Deseja Mesmo Eliminar a Observação?</string>
+    <string name="yes">Sim</string>
+    <string name="no">No</string>
+    <string name="saveInsectQuestion">Deseja Guardar o Insecto?</string>
+    <string name="updateInsectQuestion">Deseja Atualizar o Insecto?</string>
+    <string name="cancelObservationSaveQuestion">"Deseja Cancelar a Observação do Insecto?"</string>
+    <string name="cancelObservationUpdateQuestion">"Deseja Cancelar a Atualização da Observação do Insecto?"</string>
+    <string name="noItems">"Lista Vazia :("</string>
+    <string name="openMapBtn">"Abrir Mapa"</string>
+</resources>

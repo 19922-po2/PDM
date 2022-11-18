@@ -1,0 +1,28 @@
+Texto de Apresentação do Trabalho de Programação para Dispositivos Móveis - Aplicação para Classificação de Insetos:
+
+    Português:
+
+        Bem vindo há Aplicação de Classificação de Insetos
+
+        A nossa aplicação permite-nos classificar insetos fotografados utilizando a câmera do dispositivo móvel, em que para que o insecto
+        seja classificado este passa por uma séria de questões que se encontram numa árvore dictómica.
+
+        Os resultados da classificação podem ser guardados num a base de dados local Room, assim como a localização dos insectos onde estes
+        foram encontrados.
+
+        Após as classificações realizadas, também é possível visualizar uma lista de todos os insetos guardados na base de dados, assim como
+        alterar a localização dos mesmos.
+
+        Aproveite.
+
+    Inglês:
+
+        Welcome to our Insect Classification Application, with when using our app you will be able to take pictures with your
+        mobile device and classify the insects that you took the picture of, using a dictomic tree stored in the app.
+
+        The results of the classifications will be saved on a local database, as well as the bug location.
+
+        After the classification we can can see all the classifications done until this moment, see all the information inside of each
+        one and change the little bug locations whenether you want.
+
+        Enjoy it.

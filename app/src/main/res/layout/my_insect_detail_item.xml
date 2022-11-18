@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/insectDetailCOntraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/insectDetailLocationTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/insectDetailThumbnailImgageView"
+            app:layout_constraintEnd_toStartOf="@+id/deleteInsectDetailBtn"
+            app:layout_constraintStart_toEndOf="@+id/insectIDetailtemTimeTextView"
+            app:layout_constraintTop_toTopOf="@+id/insectDetailThumbnailImgageView"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/insectIDetailtemTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/insectDetailLocationTextView"
+            app:layout_constraintEnd_toStartOf="@+id/insectDetailLocationTextView"
+            app:layout_constraintStart_toEndOf="@+id/insectDetailThumbnailImgageView"
+            tools:text="@tools:sample/full_names" />
+
+        <ImageView
+            android:id="@+id/insectDetailThumbnailImgageView"
+            android:layout_width="70dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/insectIDetailtemTimeTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/deleteInsectDetailBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="?selectableItemBackgroundBorderless"
+            app:layout_constraintBottom_toBottomOf="@+id/insectDetailLocationTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/insectDetailLocationTextView"
+            app:layout_constraintTop_toTopOf="@+id/insectDetailLocationTextView"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

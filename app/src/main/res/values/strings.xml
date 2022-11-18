@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP21</string>
+    <string name="key_file">chave_en.json</string>
+    <string name="main_fragment_label">Hello</string>
+    <string name="classify_insets_btn">Classify Insects</string>
+    <string name="pictureTaken">Picture Taken</string>
+    <string name="pictureResult">Picture Result</string>
+    <string name="saveData">Save Data</string>
+    <string name="updateData">Update Data</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome">Welcome</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_option">Select Option</string>
+    <string name="result">Result</string>
+    <string name="my_insects">My Insects</string>
+    <string name="insect_details">Insect Details</string>
+    <string name="observation_details">Observation Details</string>
+    <string name="sortByOrder">Sort By Order</string>
+    <string name="sortByTime">Sort By Time</string>
+    <string name="newInsect">New Insect</string>
+    <string name="deleteInsectQuestion">Do You Wish to Delete the Insect Category and its Observations?</string>
+    <string name="deleteObservationQuestion">Do You Wish to Delete the Observations?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saveInsectQuestion">Do You wish to Save the Insect?</string>
+    <string name="updateInsectQuestion">Do You wish to Update the Insect?</string>
+    <string name="cancelObservationSaveQuestion">"Do You Wish to Cancel the Insect Observation?"</string>
+    <string name="cancelObservationUpdateQuestion">"Do You Wish to Cancel the Insect Observation Update?"</string>
+    <string name="noItems">"Empty List :("</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openMapBtn">"Open Map"</string>
+
+</resources>

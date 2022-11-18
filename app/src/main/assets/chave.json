@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "Q1",
+      "question": "Compare o seu exemplar com as imagens abaixo para fazer a sua escolha (se necessitar, pode ampliar as imagens)",
+      "options": [
+        {
+          "goto": "Q2",
+          "text": "Asas anteriores (mais próximas da cabeça) delicadas e membranosas e com nervuras bem visíveis",
+          "description": "Asas anteriores (mais próximas da cabeça) delicadas e membranosas e com nervuras bem visíveis",
+          "imageLocation": "hintImages/1/asas membranosas/asas_membranosas.jpg"
+        },
+        {
+          "goto": "Q14",
+          "text": "Asas anteriores robustas e duras, sem nervuras visíveis. Se as nervuras forem visíveis, tem um par de patas diferente dos outros. Sem asas",
+          "description": "Asas anteriores (mais próximas da cabeça)robustas e duras, sem nervuras visíveis. Se as nervuras das asas forem visíveis, o inseto tem um par de patas diferente dos outros. Sem asas.",
+          "imageLocation": "hintImages/1/asas duras/asas_duras.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "Q3",
+          "text": "Um par de asas (anteriores)",
+          "description": "Um par de asas (anteriores)",
+          "imageLocation": "hintImages/2/duas asas.jpg"
+        },
+        {
+          "goto": "Q4",
+          "text": "Dois pares de asas (anteriores e posteriores) ",
+          "description": "Dois pares de asas (anteriores e posteriores )",
+          "imageLocation": "hintImages/2/quatro asas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "Observe, com atenção, as antenas do seu inseto",
+      "options": [
+        {
+          "goto": "R1",
+          "text": "Antenas formadas por três segmentos ou menos",
+          "description": "Antenas formadas por três segmentos ou menos.",
+          "imageLocation": "hintImages/3/cabeca mosca.jpg"
+        },
+        {
+          "goto": "R2",
+          "text": "Antenas formadas por mais de três segmentos",
+          "description": "Antenas formadas por mais de três segmentos.",
+          "imageLocation": "hintImages/3/cabeca mosquito.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "question": "Observe, com atenção, as antenas do seu inseto",
+      "options": [
+        {
+          "goto": "Q5",
+          "text": "Antenas Curtas (menores ou iguais à cabeça)",
+          "description": "Antenas curtas.(menores ou iguais à cabeça)",
+          "imageLocation": "hintImages/4/cabeca cigarra.jpg"
+        },
+        {
+          "goto": "Q8",
+          "text": "Antenas Compridas (maiores do que a cabeça)",
+          "description": "Antenas compridas. (maiores do que a cabeça)",
+          "imageLocation": "hintImages/4/cabeca formiga-leao.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "Observe, com atenção, as asas anteriores (mais próximas da cabeça)",
+      "options": [
+        {
+          "goto": "Q6",
+          "text": "Asas anteriores ovais",
+          "description": "Asas anteriores ovais.",
+          "imageLocation": "hintImages/5/odonata oval.jpg"
+        },
+        {
+          "goto": "R3",
+          "text": "Asas anteriores triangulares",
+          "description": "Asas anteriores triangulares.",
+          "imageLocation": "hintImages/5/ephemeroptera triangular.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "question": "Observe, com atenção, a boca do seu inseto",
+      "options": [
+        {
+          "goto": "Q7",
+          "text": "Boca com grandes mandíbulas",
+          "description": "Boca com grandes mandíbulas.",
+          "imageLocation": "hintImages/6/boca libelula.jpg"
+        },
+        {
+          "goto": "R4",
+          "text": "Boca em forma de estilete (ou agulha)",
+          "description": "Boca em forma de estilete (ou agulha).",
+          "imageLocation": "hintImages/6/boca cigarra.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "R5",
+          "text": "Asas anteriores mais estreitas que as posteriores",
+          "description": "Asas anteriores mais estreitas que as posteriores.",
+          "imageLocation": "hintImages/7/libelulas_diferentes.jpg"
+        },
+        {
+          "goto": "R6",
+          "text": "Asas anteriores e posteriores semelhantes",
+          "description": "Asas anteriores e posteriores semelhantes.",
+          "imageLocation": "hintImages/7/libelinha iguais.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "Q9",
+          "text": "Asas sem revestimento, translúcidas (deixam passar a luz)",
+          "description": "Asas sem revestimento, translúcidas. (deixam passar a luz)",
+          "imageLocation": "hintImages/8/asas translucidas.jpg"
+        },
+        {
+          "goto": "Q12",
+          "text": "Asas revestidas, opacas (que dificultam a passagem da luz)",
+          "description": "Asas revestidas, opacas (que dificultam a passagem da luz)",
+          "imageLocation": "hintImages/8/asas opacas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "Q10",
+          "text": "Asas com poucas nervuras, quase sem nervuras transversais",
+          "description": "Asas com poucas nervuras, quase sem nervuras transversais.",
+          "imageLocation": "hintImages/9/poucas nervuras.jpg"
+        },
+        {
+          "goto": "Q11",
+          "text": "Asas com aspeto de rede, com muitas nervuras transversais e longitudinais",
+          "description": "Asas com aspeto de rede, muitas nervuras transversais e longitudinais.",
+          "imageLocation": "hintImages/9/muitas nervuras.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Observe, com atenção, a região entre o tórax e o abdómen",
+      "options": [
+        {
+          "goto": "R8",
+          "text": "Estrangulamento entre o tórax e o abdómen (com cintura)",
+          "description": "Estrangulamento entre o tórax e o abdómen.(com cintura)",
+          "imageLocation": "hintImages/10/hymenoptera com cintura.jpg"
+        },
+        {
+          "goto": "R7",
+          "text": "Sem estrangulamento entre o tórax e o abdómen (sem cintura)",
+          "description": "Sem estrangulamento entre o tórax e o abdómen.(sem cintura)",
+          "imageLocation": "hintImages/10/hymenoptera sem cintura.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Observe, com atenção, a cabeça do seu inseto",
+      "options": [
+        {
+          "goto": "R9",
+          "text": "Cabeça sem prolongamento",
+          "description": "Cabeça sem prolongamento.",
+          "imageLocation": "hintImages/11/sem prolongamento.jpg"
+        },
+        {
+          "goto": "R10",
+          "text": "Parte da frente da cabeça prolongada num \u201Cfocinho\u201D",
+          "description": "Parte da frente da cabeça prolongada num \u201Cfocinho\u201D.",
+          "imageLocation": "hintImages/11/focinho.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "Q13",
+          "text": "Asas cobertas por escamas",
+          "description": "Asas cobertas por escamas.",
+          "imageLocation": "hintImages/12/escamas.jpg"
+        },
+        {
+          "goto": "R11",
+          "text": "Asas cobertas por pelos (sem escamas)",
+          "description": "Asas cobertas por pelos.(sem escamas)",
+          "imageLocation": "hintImages/12/pelos.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Observe, com atenção, as antenas do seu inseto",
+      "options": [
+        {
+          "goto": "R12",
+          "text": "Antenas em forma de maça, ou seja, que terminam numa dilatação arredondada",
+          "description": "Antenas em forma de maça, ou seja, que terminam numa dilatação arredondada.",
+          "imageLocation": "hintImages/13/antenas maca.jpg"
+        },
+        {
+          "goto": "R13",
+          "text": "Antenas de várias formas, mas nunca em forma de maça",
+          "description": "Antenas de várias formas, mas nunca em forma de maça.",
+          "imageLocation": "hintImages/13/antenas diversas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "Observe, com atenção, as patas do seu inseto",
+      "options": [
+        {
+          "goto": "Q16",
+          "text": "Terceiro par de patas com forma e tamanho semelhantes aos restantes",
+          "description": "Terceiro par de patas com forma e tamanho semelhantes aos restantes.",
+          "imageLocation": "hintImages/14/patas semelhantes.jpg"
+        },
+        {
+          "goto": "Q15",
+          "text": "Terceiro par de patas comprido e adaptado ao salto",
+          "description": "Terceiro par de patas comprido e adaptado ao salto.",
+          "imageLocation": "hintImages/14/patas salto.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "Observe, com atenção, as antenas do seu inseto",
+      "options": [
+        {
+          "goto": "R15",
+          "text": "Antenas compridas, com tamanho superior ao do corpo",
+          "description": "Antenas compridas, com tamanho superior ao do corpo.",
+          "imageLocation": "hintImages/15/antenas compridas.jpg"
+        },
+        {
+          "goto": "R14",
+          "text": "Antenas de tamanho claramente inferior ao do corpo",
+          "description": "Antenas de tamanho claramente inferior ao do corpo. ",
+          "imageLocation": "hintImages/15/antenas curtas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "Q18",
+          "text": "Com asas",
+          "description": "Com asas.",
+          "imageLocation": "hintImages/16/com asas.jpg"
+        },
+        {
+          "goto": "Q17",
+          "text": "Sem asas",
+          "description": "Sem asas.",
+          "imageLocation": "hintImages/16/sem asas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "question": "Observe, com atenção, o corpo do seu inseto",
+      "options": [
+        {
+          "goto": "R16",
+          "text": "Forma do corpo semelhante a um pau",
+          "description": "Forma do corpo semelhante a um pau.",
+          "imageLocation": "hintImages/17/phasmida.jpg"
+        },
+        {
+          "goto": "R22",
+          "text": "Corpo sem aspeto de pau",
+          "description": "Corpo sem aspecto de pau.",
+          "imageLocation": "hintImages/17/formiga.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "question": "Observe, com atenção, o abdómen do seu inseto",
+      "options": [
+        {
+          "goto": "Q19",
+          "text": "Abdómen sem apêndices, ou, quando os tem, não são em forma de pinça ",
+          "description": "Abdómen sem apêndices, ou quando os tem, não são em forma de pinça.",
+          "imageLocation": "hintImages/18/apendices sem forma de pinca.jpg"
+        },
+        {
+          "goto": "R17",
+          "text": "Abdómen a terminar em pinças",
+          "description": "Abdómen a terminar em pinças.",
+          "imageLocation": "hintImages/18/pincas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q19",
+      "question": "Observe, com atenção, o final do abdómen",
+      "options": [
+        {
+          "goto": "Q20",
+          "text": "Final do abdómen com apêndices (cercos)",
+          "description": "Final do abdómen com apêndices.(cercos)",
+          "imageLocation": "hintImages/19/apendices .jpg"
+        },
+        {
+          "goto": "Q21",
+          "text": "Final do abdómen sem apêndices",
+          "description": "Final do abdómen sem apêndices.(cercos)",
+          "imageLocation": "hintImages/19/sem apendices.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "question": "Observe, com atenção, as patas do seu inseto",
+      "options": [
+        {
+          "goto": "R18",
+          "text": "Três pares de patas de aspeto semelhante",
+          "description": "Três pares de patas de aspecto semelhante.",
+          "imageLocation": "hintImages/20/patas semelhantes metade.jpg"
+        },
+        {
+          "goto": "R19",
+          "text": "Primeiro par de patas mais largo e espinhoso do que os restantes e com aspeto de garras",
+          "description": "Primeiro par de patas mais largo e espinhoso do que as restantes e com aspecto de garras.",
+          "imageLocation": "hintImages/20/patas anteriores garras.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q21",
+      "question": "Observe, com atenção, a boca do seu inseto",
+      "options": [
+        {
+          "goto": "Q22",
+          "text": "Boca em forma de estilete (ou agulha)",
+          "description": "Boca em forma de bico.",
+          "imageLocation": "hintImages/21/boca percevejo.jpg"
+        },
+        {
+          "goto": "R20",
+          "text": "Boca com mandíbulas visíveis",
+          "description": "Boca com mandíbulas visíveis.",
+          "imageLocation": "hintImages/21/boca coleoptera.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Q22",
+      "question": "Observe, com atenção, as asas do seu inseto",
+      "options": [
+        {
+          "goto": "R21",
+          "text": "Asas anteriores divididas em duas áreas: mais perto da cabeça, de aspeto robusto e forte; na extremidade, mais delicada, translúcida e com nervuras visíveis",
+          "description": "Asas anteriores divididas em duas áreas: mais perto da cabeça, a asa tem um aspeto robusto e forte; na extremidade, a asa é mais delicada, translúcida e tem as nervuras visíveis",
+          "imageLocation": "hintImages/22/asa anterior percevejo.jpg"
+        },
+        {
+          "goto": "R23",
+          "text": "Asas anteriores com o mesmo aspeto em toda a sua extensão",
+          "description": "Asas anteriores com o mesmo aspecto em toda a sua extensão.",
+          "imageLocation": "hintImages/22/asa anterior cigarrinha.jpg"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "R1",
+      "ordem": "Moscas: Ordem Diptera \u2013 Subordem Brachycera",
+      "description": "\n                Ordem Diptera: significa que tem duas (di) asas (ptera).\n\n                As moscas e mosquitos, tal como as melgas e os moscardos, pertencem à Ordem Diptera. Têm apenas duas asas membranosas, encontrando-se as asas posteriores transformadas em balancetes, estruturas características da ordem. A boca dos mosquitos é do tipo sugadora, adaptada à sucção de líquidos. Os adultos de algumas espécies alimentam-se de sangue e outros não se alimentam de todo. As larvas podem ser aquáticas ou terrestres e neste caso podem alimentar-se de fungos e de matéria orgânica em decomposição.\n\n                Subordem Brachycera\n                Esta subordem (juntamente com a subordem Cyclorrapha) caracteriza-se pelas antenas, que nunca têm mais de 3 segmentos.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Diptera/moscas/Lucilia sp.jpg"
+    },
+    {
+      "id": "R2",
+      "ordem": "MOSQUITOS E MELGAS: Ordem Diptera \u2013 Subordem Nematocera",
+      "description": "\n                Ordem Diptera: significa que tem duas (di) asas (ptera).\n\n                As moscas e mosquitos, tal como as melgas e os moscardos, pertencem à Ordem Diptera. Têm apenas duas asas membranosas, encontrando-se as asas posteriores transformadas em balancetes, estruturas características da ordem. A boca dos mosquitos é do tipo sugadora, adaptada à sucção de líquidos. Os adultos de algumas espécies alimentam-se de sangue e outros não se alimentam de todo. As larvas podem ser aquáticas ou terrestres e neste caso podem alimentar-se de fungos e de matéria orgânica em decomposição.\n\n                Subordem Nematocera\n                Os insetos desta subordem são os mais antigos da Ordem Diptera. Reconhecem-se pelas antenas formadas por mais de três segmentos e pelo corpo esguio. Os mosquitos e as melgas, devido à dependência da água e da humidade para o desenvolvimento das suas larvas, estão normalmente associados a habitats húmidos e sombrios, nas proximidades de cursos de água.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Diptera/mosquitos/Tipula sp asas castanhas.jpg"
+    },
+    {
+      "id": "R3",
+      "ordem": "EFÉMERAS: Ordem Ephemeroptera",
+      "description": "\n                Ordem Ephemeroptera: significa que vive um dia (ephemera).\n\n                As efémeras distinguem\u2010se pelas antenas curtas, pela presença de duas ou três longas «caudas» no final do abdómen e por um ou dois pares de asas muito delicadas. Quando estão presentes, as asas anteriores são sempre muito maiores do que as posteriores. Na Europa há cerca de 200 espécies, mas a maior diversidade encontra-se nos trópicos. As efémeras europeias são mais pequenas e encontram-se normalmente na proximidade de água doce.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Ephemeroptera/Ephemera glaucops carta.jpg"
+    },
+    {
+      "id": "R4",
+      "ordem": "CIGARRAS: Ordem Homoptera",
+      "description": "\n                Ordem Homoptera: significa que tem asas (ptera) iguais (homo).\n\n                As cigarras e as cigarrinhas formam um grupo de insetos muito heterogéneo, com muitas formas e estilos de vida, mas que partilha uma característica muito importante: a boca está transformada num longo estilete ou bico que serve para sugar líquidos. Em muitos casos, este bico está localizado numa posição muito inferior da cabeça, quase ao nível das patas da frente. Todas as espécies de homópteros se alimentam de plantas, constituindo em muitos casos pragas de culturas agrícolas. Estes insetos debilitam as plantas ao sugarem grandes quantidades de seiva e muitos injetam toxinas e microrganismos que são prejudiciais às plantas.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Hemiptera/Homoptera/Cicada orni.jpg"
+    },
+    {
+      "id": "R5",
+      "ordem": "LIBÉLULAS: Ordem Odonata \u2013 Subordem Anisoptera",
+      "description": "\n                Ordem Odonata: significa que tem dentes (odonto).\n\n                A ordem Odonata divide-se em dois grupos: as libelinhas (subordem Zygoptera) e as libélulas (subordem Anisoptera). As libelinhas e as libélulas têm uma excelente capacidade de visão, proporcionada por dois enormes olhos compostos. Poderosas mandíbulas dotadas de dentes permitem-lhes comer animais duros, como os besouros. Ao contrário do que muitas vezes se pensa, as libélulas não têm ferrão (e por isso não picam). Apesar de serem animais de aspeto bizarro, são muito úteis pois alimentam-se de grande quantidade de moscas e de mosquitos. As libélulas e as libelinhas são insetos inconfundíveis: distinguem-se pelos longos e finos corpos e por terem dois pares de asas, nos quais se pode ver um complexo sistema de nervuras. As antenas são muito curtas. Em todo o mundo existem cerca de 6000 espécies de Odonata. Na Europa vivem perto de 120 espécies, das quais 65 se encontram em Portugal.\n\n                Subordem Anisoptera: significa que tem asas (ptera) diferentes (aniso).\n                Quando estão em repouso, as libélulas mantêm as asas abertas e na horizontal. Têm músculos fortes que permitem um voo rápido e caçar com grande eficácia. Sendo animais fundamentalmente aquáticos, precisam da água para completar o seu ciclo de vida. Contudo, os adultos são avistados muitas vezes longe dos rios e ribeiros onde nasceram, devido à sua grande capacidade de voo. É fácil encontrar libélulas nas clareiras de florestas a caçar insetos, em locais aquecidos pelo sol.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Odonata/Anisoptera/Libellula depressa.jpg"
+    },
+    {
+      "id": "R6",
+      "ordem": "LIBELINHAS: Ordem Odonata \u2013 Subordem Zygoptera",
+      "description": "\n                Ordem Odonata: significa que tem dentes (odonto).\n\n                A ordem Odonata divide-se em dois grupos: as libelinhas (subordem Zygoptera) e as libélulas (subordem Anisoptera). As libelinhas e as libélulas têm uma excelente capacidade de visão, proporcionada por dois enormes olhos compostos. Poderosas mandíbulas dotadas de dentes permitem-lhes comer animais duros, como os besouros. Ao contrário do que muitas vezes se pensa, as libélulas não têm ferrão (e por isso não picam). Apesar de serem animais de aspeto bizarro, são muito úteis pois alimentam-se de grande quantidade de moscas e de mosquitos. As libélulas e as libelinhas são insetos inconfundíveis: distinguem-se pelos longos e finos corpos e por terem dois pares de asas, nos quais se pode ver um complexo sistema de nervuras. As antenas são muito curtas. Em todo o mundo existem cerca de 6000 espécies de Odonata. Na Europa vivem perto de 120 espécies, das quais 65 se encontram em Portugal.\n\n                Subordem Zygoptera: significa que tem asas (ptera) iguais (zygo).\n                As libelinhas têm dois pares de asas idênticos. Quando estão em repouso mantêm as asas na vertical, fechadas ou ligeiramente abertas. Os olhos compostos encontram-se numa posição oposta, criando uma estrutura que faz lembrar um pequeno martelo. As libelinhas são insetos delicados, com um voo gracioso e lento. Por serem pouco velozes, caçam as suas presas quando estas estão em repouso, geralmente sobre a vegetação.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Odonata/Zygoptera/Lestes viridis.jpg"
+    },
+    {
+      "id": "R7",
+      "ordem": "VESPAS-PORTA-SERRA: Ordem Hymenoptera \u2013 Subordem Symphyta\n            ",
+      "description": "\n                Ordem Hymenoptera: significa que tem asas (ptera) mebranosas (hymen).\n\n                Os himenópteros caracterizam-se pela presença de dois pares de asas membranosas com poucas nervuras, sendo as anteriores maiores do que as posteriores. Alguns himenópteros, como as formigas, podem não ter asas. A Ordem Hymenoptera é a segunda maior com cerca de 200 000 espécies conhecidas. Em Portugal estão registadas pouco mais de 1000 espécies, provavelmente um número muito abaixo da realidade. Os himenópteros desempenham importantes funções nos ecossistemas como polinizadores e agentes de controlo biológico das populações de outros insetos.\n\n                Subordem Symphyta\n                As vespas-porta-serra distinguem-se dos restantes himenópteros por não terem um estreitamento entre o tórax e o abdómen (a «cintura de vespa»). O seu nome comum faz referência ao ovipositor da fêmea, em forma de serra, que serve para cortar os tecidos das plantas onde deposita os ovos. Os adultos alimentam\u2010se de pólen.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Hymenoptera/Symphyta/Macrophya montana.jpg"
+    },
+    {
+      "id": "R8",
+      "ordem": "ABELHAS, VESPAS, VESPAS PARASITAS E PARASITÓIDES: Ordem Hymenoptera \u2013 Subordem Apocrita",
+      "description": "\n                Ordem Hymenoptera: significa que tem asas (ptera) mebranosas (hymen).\n\n                Os himenópteros caracterizam-se pela presença de dois pares de asas membranosas com poucas nervuras, sendo as anteriores maiores do que as posteriores. Alguns himenópteros, como as formigas, podem não ter asas. A Ordem Hymenoptera é a segunda maior com cerca de 200 000 espécies conhecidas. Em Portugal estão registadas pouco mais de 1000 espécies, provavelmente um número muito abaixo da realidade. Os himenópteros desempenham importantes funções nos ecossistemas como polinizadores e agentes de controlo biológico das populações de outros insetos.\n\n                Subordem Apocrita\n                A maior parte dos himenópteros, entre os quais as populares vespas, abelhas e formigas, pertencem a esta subordem. Este grupo caracteriza\u2010se por possuir um pronunciado estreitamento entre o tórax e o abdómen \u2013 a «cinturinha de vespa». As larvas estão sempre rodeadas de comida e por isso não precisam de se mover, razão pela qual a cabeça é reduzida e não possuem patas.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Hymenoptera/Apocrita/Megascolia maculata.jpg"
+    },
+    {
+      "id": "R9",
+      "ordem": "CRISOPAS, LIBELÓIDES E FORMIGAS-LEÃO: Ordem Neuroptera",
+      "description": "\n                Ordem Neuroptera: significa que tem nervuras (neuro) nas asas (ptera).\n\n                Os insetos desta Ordem têm as asas membranosas com muitas nervuras longitudinais e transversais, formando uma rede de malha apertada. As antenas são compridas e a boca tem poderosas mandíbulas adaptadas à mastigação de materiais rijos. A maior parte das espécies são predadoras em todas as fases do ciclo de vida. Em todo o mundo existem mais de 4500 espécies.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Neuroptera/Nemoptera bipennis.jpg"
+    },
+    {
+      "id": "R10",
+      "ordem": "MOSCAS-ESCORPIÃO E MOSCAS-BALOIÇO: Ordem Mecoptera\n            ",
+      "description": "\n                Ordem Mecoptera: significa que tem asas (ptera) longas (meco).\n\n                A forma da cabeça destes insetos, projetada para baixo formando um focinho com mandíbulas na extremidade, torna-os inconfundíveis. A maioria das espécies tem dois pares de asas membranosas, longas e com manchas escuras. As patas são muito finas. As antenas são longas, com muitos segmentos. Os olhos são compostos e bem desenvolvidos. Existem cerca de 500 espécies descritas das quais cerca de 30 se encontram na Europa. A fauna portuguesa é representada por duas famílias com apenas um sp. conhecido em cada uma delas: a mosca-escorpião (Panorpa sp., família Panorpidae) e a mosca-baloiço (Bittacus italicus, família Bittacidae).\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Mecoptera/mosca-escorpiao Panorpa meridionalis.jpg"
+    },
+    {
+      "id": "R11",
+      "ordem": "FRIGâNIOS: Ordem Trichoptera",
+      "description": "\n                Ordem Trichoptera: significa que tem pelos (trichos) nas asas (ptera).\n\n                As asas dos frigânios ou tricópteros possuem poucas nervuras transversais e estão cobertas por pelos. Quando o inseto está em repouso mantém as asas sobre o corpo como se fossem um telhado. As antenas são finas e por vezes muito longas. Os frigânios podem lembrar algumas borboletas. Distinguem-se destas pela presença de pelos a revestir as asas e por terem mandíbulas na boca. Os adultos são pouco conhecidos, têm cores e padrões pouco vistosos, e voam habitualmente ao anoitecer. A diversidade mundial ronda as 13 000 espécies, mas em muitas regiões o número real é ainda desconhecido. As larvas de frigânios são aquáticas e os adultos vivem na proximidade de massas de água doce. Os casulos construídos pelas larvas são fáceis de encontrar em rios e ribeiros, por isto, é esta a fase do ciclo de vida dos tricópteros mais popular e conhecida.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Trichoptera/Mosca-de-Agua.jpg"
+    },
+    {
+      "id": "R12",
+      "ordem": "BORBOLETAS DIURNAS: Ordem Lepidoptera \u2013 Grupo Rhopalocera\n            ",
+      "description": "\n                Ordem Lepidoptera: significa que tem escamas (lepido) nas asas (ptera).\n\n                As borboletas são insetos muito característicos: possuem dois pares de asas membranosas, encontrando\u2010se estas e o corpo cobertos por escamas. A boca da grande maioria das espécies é formada por uma probóscide ou espirotromba, que é um tubo que permite aos animais sugar líquidos (água e néctar), como se fosse uma palhinha. A probóscide permanece enrolada em espiral por baixo da cabeça quando o animal não se alimenta. A diversidade de lepidópteros atualmente conhecida é estimada entre 160 000 a 175 000 espécies. No entanto, pensa\u2010se que o total de espécies poderá chegar a meio milhão.\n\n                Grupo Rhopalocera: significa que tem as antenas (cera) em forma de maça (rhopalo).\n                Tal como o nome comum indica, estes animais têm hábitos diurnos. O nome científico remete para a forma das antenas que são lineares e terminam em forma de maça ou clava, ou seja, têm uma dilatação na extremidade. A maioria das espécies não faz um casulo para proteger a pupa ou crisálida. Outra característica que distingue este grupo é a ausência de qualquer sistema de ligação entre as asas anteriores e posteriores.\n                Os ropalóceros ou borboletas diurnas são o grupo de insetos melhor conhecido. Na Europa há 420 espécies, especialmente concentradas na região mediterrânica e nas zonas montanhosas (Alpes e Pirinéus). A Península Ibérica, com 239 espécies, é dos locais mais ricos em borboletas. Em Portugal ocorrem 135 espécies.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Lepidoptera/Rhopalocera/Vanessa atalanta.jpg"
+    },
+    {
+      "id": "R13",
+      "ordem": "BORBOLETAS NOTURNAS: Ordem Lepidoptera \u2013 Grupo Heterocera\n            ",
+      "description": "\n                Ordem Lepidoptera: significa que tem escamas (lepido) nas asas (ptera).\n\n                As borboletas são insetos muito característicos: possuem dois pares de asas membranosas, encontrando\u2010se estas e o corpo cobertos por escamas. A boca da grande maioria das espécies é formada por uma probóscide ou espirotromba, que é um tubo que permite aos animais sugar líquidos (água e néctar), como se fosse uma palhinha. A probóscide permanece enrolada em espiral por baixo da cabeça quando o animal não se alimenta. A diversidade de lepidópteros atualmente conhecida é estimada entre 160 000 a 175 000 espécies. No entanto, pensa\u2010se que o total de espécies poderá chegar a meio milhão.\n                Grupo Heterocera: significa que tem as antenas (cera) com diferentes formas (hetero).\n                Cerca de 90% dos lepidópteros estão incluídos no grupo das borboletas noturnas. Este nome genérico atribuído ao grupo pode ser enganador. Apesar de ser associado a borboletas com actividade noturna e de cores escuras (como as que visitam as lâmpadas de candeeiros), a verdade é que este grupo também inclui borboletas que voam durante o dia e têm, por isso, asas muito coloridas. A principal característica deste grupo é a forma das antenas, que pode ser muito variada (em forma de pente, corda ou fio), mas nunca em maça como sucede nas borboletas diurnas.\n                Em Portugal encontram-se inventariadas cerca de 2600 espécies e todos os anos são descobertas novas espécies, fruto do trabalho de investigadores nacionais e estrangeiros. Para mais informação sobre a nossa fauna pode consultar www.lusoborboletas.org. Seguem-se imagens de algumas espécies emblemáticas em diversas fases do ciclo de vida.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Lepidoptera/Heterocera/Catocala elocata.jpg"
+    },
+    {
+      "id": "R14",
+      "ordem": "GAFANHOTOS: Ordem Orthoptera \u2013 Subordem Caelifera",
+      "description": "\n                Ordem Orthoptera: significa que tem asas (ptera) direitas (ortho).\n\n                Insetos com a cabeça grande e o primeiro segmento do tórax (pronoto) bem visível e parecido com uma sela de montar. As patas traseiras são muito maiores do que as restantes e estão adaptadas para saltar. Os adultos possuem geralmente dois pares de asas, sendo as anteriores duras ou coriáceas. Conhecem\u2010se mais de 15 000 espécies no mundo, sendo as regiões tropicais as mais ricas. Na Europa, a maior diversidade de espécies encontra-se na região Mediterrânica. Existem mais de 300 espécies na Península Ibérica e cerca de 140 em Portugal.\n\n                Subordem Caelifera: significa «gravar em relevo» (caelare).\n                A maioria das espécies de gafanhotos prefere prados e zonas abertas com clima quente e seco.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Orthoptera/curtas/Calliptamus barbarus.jpg"
+    },
+    {
+      "id": "R15",
+      "ordem": "GRILOS E SALTÕES: Ordem Orthoptera \u2013 Subordem Ensifera",
+      "description": "\n                Ordem Orthoptera: significa que tem asas (ptera) direitas (ortho).\n\n                Insetos com a cabeça grande e o primeiro segmento do tórax (pronoto) bem visível e parecido com uma sela de montar. As patas traseiras são muito maiores do que as restantes e estão adaptadas para saltar. Os adultos possuem geralmente dois pares de asas, sendo as anteriores duras ou coriáceas. Conhecem\u2010se mais de 15 000 espécies no mundo, sendo as regiões tropicais as mais ricas. Na Europa, a maior diversidade de espécies encontra-se na região Mediterrânica. Existem mais de 300 espécies na Península Ibérica e cerca de 140 em Portugal.\n\n                Subordem Ensifera: significa «portador de espada» (ensifer).\n                A maioria das espécies deste grupo prefere locais com vegetação densa como bosques e matos, pelo que a sua conservação depende da manutenção destes habitats.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Orthoptera/compridas/Tettigonia viridissima.jpg"
+    },
+    {
+      "id": "R16",
+      "ordem": "BICHO-PAU: Ordem Phasmida",
+      "description": "\n                Ordem Phasmida: significa «espírito» ou «aparição» (phasma).\n\n                Os bichos-pau são inconfundíveis: são insetos esguios, com longas patas, mandíbulas fortes e um par de antenas compridas. Na Europa não há nenhuma espécie com asas. As patas, todas idênticas, são constituídas por cinco segmentos. São animais herbívoros: as fortes mandíbulas são necessárias para mastigar as plantas de que se alimentam.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Phasmidae/bicho-pau Leptynia attenuata carta.jpg"
+    },
+    {
+      "id": "R17",
+      "ordem": "BICHAS-CADELA: Ordem Dermaptera",
+      "description": "\n                Ordem Dermaptera: significa que tem as asas (ptera) semelhantes a pele (derma).\n\n                São insetos alongados, com antenas longas e finas. No tórax encontram-se dois pares de asas, sendo as anteriores curtas e duras e designadas por tégminas. As asas posteriores são grandes e membranosas. Quando estão em repouso, as asas posteriores ficam dobradas de uma forma complicada debaixo das tégminas. O abdómen possui bastante mobilidade e tem um par de segmentos terminais modificados em forma de pinças. Nos machos adultos estas pinças são fortemente curvadas. As pinças têm várias funções: podem ser usadas para abrir as asas, para capturar presas e também como arma de defesa contra predadores. Os Dermaptera são uma ordem relativamente pequena, com cerca de 1800 espécies no mundo inteiro.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Dermaptera/Forficula auriculata.jpg"
+    },
+    {
+      "id": "R18",
+      "ordem": "BARATAS: Ordem Blattodea",
+      "description": "\n                Ordem Blattodea: significa que foge da luz (blatta).\n\n                As baratas têm um corpo oval, achatado e uma coloração escura. Caracterizam-se por terem um pronoto (primeiro segmento do tórax) em forma de escudo e que cobre grande parte da cabeça. Muitas espécies de baratas possuem dois pares de asas: as anteriores são duras e as posteriores são membranosas. A boca é do tipo mastigador. A maioria das espécies tem antenas longas e finas.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Blatodea/Periplaneta americana.jpg"
+    },
+    {
+      "id": "R19",
+      "ordem": "LOUVA-A-DEUS: Ordem Mantodea\n            ",
+      "description": "\n                Ordem Mantodea: significa que tem a forma de um «profeta».\n\n                Os louva-a-deus distinguem-se facilmente pelas patas anteriores espinhosas e desenvolvidas de maneira a poderem caçar. O primeiro segmento do tórax (pronoto) é muito comprido e estreito. Algumas espécies possuem dois pares de asas perfeitamente funcionais, noutras apenas o macho consegue voar e existem mesmo espécies sem asas. Existem cerca de 2300 espécies de louva-a-deus, que se encontram sobretudo nas regiões tropicais. Na Europa são conhecidas doze espécies e em Portugal foram registadas nove.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Mantodea/louva-a-deus Iris oratoria carta.jpg"
+    },
+    {
+      "id": "R20",
+      "ordem": "BESOUROS OU ESCARAVELHOS: Ordem Coleoptera\n            ",
+      "description": "\n                Ordem Coleoptera: significa que têm asas (ptera) protetoras (coleo).\n\n                Os adultos desta ordem possuem normalmente dois pares de asas. As asas anteriores estão endurecidas, e não servem para voar, mas sim para proteger o abdómen. Quando estão pousados, o par de asas posterior e o abdómen não se vêem, pois estão ocultos pelas asas endurecidas.\n                Os besouros são muito abundantes quer em número de indivíduos, quer em número de espécies. Estima\u2010se que existam mais de 350 000 espécies em todo o mundo. A sua diversidade manifesta\u2010se na variedade de habitats que podem colonizar e também na capacidade para explorar diferentes tipos de recursos alimentares. Esta capacidade está relacionada com o grupo a que pertencem e, por este motivo, serão apresentados tendo em conta as suas preferências alimentares.\n                Todos os estádios de desenvolvimento dos besouros, desde as larvas aos adultos, têm a boca adaptada para mastigar, com mandíbulas bem desenvolvidas. Ao primeiro par de asas dos besouros dá\u2010se o nome de élitros. A presença dos élitros foi determinante para o sucesso deste grupo, conferindo\u2010lhe uma grande resistência e capacidade de colonizar diversos meios.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Coleoptera/Copris de asa aberta.jpg"
+    },
+    {
+      "id": "R21",
+      "ordem": "PERCEVEJOS: Ordem Heteroptera\n            ",
+      "description": "\n                Ordem Heteroptera: significa que tem asas (ptera) diferentes (hetero).\n\n                O nome desta ordem refere-se às características das asas anteriores destes insetos, em que a parte superior é dura e a parte inferior membranosa. De uma maneira geral, o corpo dos percevejos é achatado e as asas estão dobradas sobre o corpo quando os animais estão em repouso. À semelhança das cigarras e das cigarrinhas, todas as espécies desta ordem possuem a boca em forma de estilete. Muitas famílias têm a capacidade de segregar substâncias, que são libertadas por glândulas existentes nas patas posteriores e que produzem um cheiro desagradável.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D\n            ",
+      "imageLocation": "resultImages/Hemiptera/Heteroptera/Rhinocoris iracundus.jpg"
+    },
+    {
+      "id": "R22",
+      "ordem": "FORMIGAS: Ordem Hymenoptera \u2013 Subordem Apocrita",
+      "description": "\n                Ordem Hymenoptera: significa que tem asas (ptera) mebranosas (hymen).\n\n                Os himenópteros caracterizam-se pela presença de dois pares de asas membranosas com poucas nervuras, sendo as anteriores maiores do que as posteriores. Alguns himenópteros, como as formigas, podem não ter asas. A Ordem Hymenoptera é a segunda maior com cerca de 200 000 espécies conhecidas. Em Portugal estão registadas pouco mais de 1000 espécies, provavelmente um número muito abaixo da realidade. Os himenópteros desempenham importantes funções nos ecossistemas como polinizadores e agentes de controlo biológico das populações de outros insetos.\n\n                Subordem Apocrita\n                A maior parte dos himenópteros, entre os quais as populares vespas, abelhas e formigas, pertencem a esta subordem. Este grupo caracteriza\u2010se por possuir um pronunciado estreitamento entre o tórax e o abdómen \u2013 a «cinturinha de vespa». As larvas estão sempre rodeadas de comida e por isso não precisam de se mover, razão pela qual a cabeça é reduzida e não possuem patas.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Hymenoptera/Apocrita/Cataglyphis sp.jpg"
+    },
+    {
+      "id": "R23",
+      "ordem": "CIGARRINHAS: Ordem Homoptera",
+      "description": "\n                Ordem Homoptera: significa que tem asas (ptera) iguais (homo)\n                As cigarras e as cigarrinhas formam um grupo de insetos muito heterogéneo, com muitas formas e estilos de vida, mas que partilha uma característica muito importante: a boca está transformada num longo estilete ou bico que serve para sugar líquidos. Em muitos casos, este bico está localizado numa posição muito inferior da cabeça, quase ao nível das patas da frente. Todas as espécies de homópteros se alimentam de plantas, constituindo em muitos casos pragas de culturas agrícolas. Estes insetos debilitam as plantas ao sugarem grandes quantidades de seiva e muitos injetam toxinas e microrganismos que são prejudiciais às plantas.\n\n                Mais informação no Catálogo da Exposição \u201CInsetos em Ordem\u201D.\n            ",
+      "imageLocation": "resultImages/Hemiptera/Homoptera/Cicadella viridis.jpg"
+    }
+  ]
+}

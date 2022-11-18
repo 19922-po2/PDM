@@ -1,0 +1,16 @@
+Auto-Avalição
+
+Req.1 - 0.5 - Realizado pelos 2 Elementos do Grupo
+Req.2 - 4.5 - Realizado pelos 2 Elementos do Grupo
+Req.3 - 2.0 - Realizado pelos 2 Elementos do Grupo
+Req.4 - 2.5 - Realizado pelos 2 Elementos do Grupo
+Req.5
+    Req.5.1 - 0.25 - Realizado pelos 2 Elementos do Grupo
+    Req.5.2 - 0.25 - Realizado pelos 2 Elementos do Grupo
+    Req.5.3 - 2.0 - Realizado pelos 2 Elementos do Grupo
+Req.6 - 1.0 - Realizado pelos 2 Elementos do Grupo
+Req.7 - 1.0 - Fernando Simões
+Req.8 - 2.0 - Pontos distribuídos pelos outros requisitos
+
+Nota Final = 16
+

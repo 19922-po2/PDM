@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="pt.ipbeja.tp21.ui.main.MainFragment"
+        android:label="@string/welcome"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myInsectsFragment"
+            app:destination="@id/myInsectsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="pt.ipbeja.tp21.ui.main.CameraFragment"
+        android:label="@string/take_photo"
+        tools:layout="@layout/fragment_camera">
+        <action
+            android:id="@+id/action_cameraFragment_to_classificacaoFragment"
+            app:destination="@id/classificacaoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classificacaoFragment"
+        android:name="pt.ipbeja.tp21.ui.main.ClassificacaoFragment"
+        android:label="@string/select_option"
+        tools:layout="@layout/fragment_classificacao">
+        <action
+            android:id="@+id/action_classificacaoFragment_self"
+            app:destination="@id/classificacaoFragment" />
+        <action
+            android:id="@+id/action_classificacaoFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment" />
+        <action
+            android:id="@+id/action_classificacaoFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoFragment"
+        android:name="pt.ipbeja.tp21.ui.main.resultadoFragment"
+        android:label="@string/result">
+        <action
+            android:id="@+id/action_resultadoFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_resultadoFragment_to_classificacaoFragment"
+            app:destination="@id/classificacaoFragment" />
+        <action
+            android:id="@+id/action_resultadoFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myInsectsFragment"
+        android:name="pt.ipbeja.tp21.ui.main.MyInsectsFragment"
+        android:label="@string/my_insects"
+        tools:layout="@layout/fragment_my_insects">
+        <action
+            android:id="@+id/action_myInsectsFragment_to_insectDetailFragment"
+            app:destination="@id/insectDetailFragment" />
+        <action
+            android:id="@+id/action_myInsectsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insectDetailFragment"
+        android:name="pt.ipbeja.tp21.ui.main.InsectDetailFragment"
+        android:label="@string/insect_details">
+        <argument
+            android:name="insectId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_insectDetailFragment_to_observationDetailsInsectFragment"
+            app:destination="@id/observationDetailsInsectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/observationDetailsInsectFragment"
+        android:name="pt.ipbeja.tp21.ui.main.ObservationDetailsInsectFragment"
+        android:label="@string/observation_details"
+        tools:layout="@layout/fragment_observation_details_insect">
+        <argument
+            android:name="insectId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_observationDetailsInsectFragment_to_myInsectsFragment"
+            app:destination="@id/myInsectsFragment" />
+        <action
+            android:id="@+id/action_observationDetailsInsectFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="pt.ipbeja.tp21.ui.main.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_observationDetailsInsectFragment"
+            app:destination="@id/observationDetailsInsectFragment" />
+        <argument
+            android:name="insectId"
+            app:argType="long" />
+    </fragment>
+</navigation>
