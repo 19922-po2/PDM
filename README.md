@@ -11,11 +11,10 @@ GOOGLE_MAPS_KEY=MAPS_KEY
 API_KEY=TOKEN
 ```  
 - `MAPS_KEY` é a chave da API gerada na consola de desenvolvimento da Google para utilização do SDK Google Maps
-- `TOKEN` é a chave da API que lhe será providenciada pelos docentes para utilização do serviço REST criado para este projeto
+- `TOKEN` é a chave da API para utilização do serviço REST criado para este projeto
 
-Podem, inicialmente, deixar estas entradas definidas no ficheiro com valores fictícios para o projeto compilar, por exemplo:
+Inicialmente, deixar estas entradas definidas no ficheiro com valores fictícios para o projeto compilar, por exemplo:
 ```
 GOOGLE_MAPS_KEY=PLACEHOLDER
 API_KEY=PLACEHOLDER
 ```
-Pode depois substituir os `PLACEHOLDER`s pelas chaves reais quando as obtiver.
